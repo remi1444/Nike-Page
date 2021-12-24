@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(27, 52, 68);
+}
+header{
+    display: flex;
+    width: 100%;
+}
+.h1{
+    color: saddlebrown;
+    margin-right: 4rem;
+}
+.k{
+    font-size: 5rem;
+}
+.nav-bar__mid{
+    display: flex;
+    list-style: none;
+    
+    
+}
+.nav-bar__mid >li >a{
+    color: #d1cccc;
+    text-decoration: none;
+}
+.nav-bar__mid > li{
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+.discord{
+    transform: translateX(75rem);
+    margin-top: 2rem;
+    background: rgb(32, 53, 92);
+    color: cornsilk;
+    height: 30px;
+    padding-top: 0.2rem;
+    width: 80px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid wheat;
+
+}
+.header-slogan{
+    text-align: center;
+    font-size: 5rem;;
+    color: #d1cccc;
+}
+.got-em-1{
+    text-transform: uppercase;
+    color: #e03c3c;
+}
+.got-em-2{
+    text-transform: uppercase;
+    color: #e03c3c;
+}
+.got-em-3{
+    text-transform: uppercase;
+    color: #e03c3c; 
+}
+.em{
+    text-transform: uppercase;
+    color:rosybrown
+}
+.main-container__original{
+    display: flex;
+    margin: 1.5rem;
+}
+.top-container-1,
+.top-container-2{
+    background: rgb(17, 35, 58);
+    border-radius: 12px;
+    margin: 1rem;
+    width: 50%;
+    padding: 1.5rem;
+    box-shadow: 3px 3px 4px #334e72;
+    color: #d1cccc;
+    /* position: relative; */
+}
+
+.image{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    transform: translateX(14.5rem);
+    margin-bottom: 1rem;
+    filter:invert(99)
+}
+.image-top{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 24rem;
+    filter:invert(99)
+
+}
+.header{
+    text-transform: uppercase;
+    background: red;
+    padding: 0.8rem 5px;
+    border-radius: 50px;
+    margin: 0.5rem 6rem;
+    text-align: center;
+    
+    
+}
+.pricing{
+color: red;
+font-size: 2rem;
+text-align: center;
+}
+
+#dollar{
+    color:rgb(252, 250, 250) !important;;
+    font-size: 16px !important;
+    margin-right: 0.3rem;
+}
+.per-acct{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.point-1,
+.point-2,
+.point-3,
+.point-4{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+.checkbox{
+    height: 23px;
+    width: 20px;
+    background: red;
+    border-radius: 40%;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    
+}
+.ok{
+    padding-left: 0.2rem;
+    font-weight: 700;
+    height: 2px;
+    width: 2px;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.btn-1,
+.btn-2,
+.btn-3{
+    margin: 0.3rem;
+    background: rgb(67, 27, 177);
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    width: 33%;
+}
+.main-container__original-2{
+    width: 95%;
+    display: flex;
+    margin: 1rem;
+}
+
+.container-1,
+.container-2,
+.container-3{
+    background: #11233a;
+    border-radius: 12px;
+    margin: 1.5rem;
+    vertical-align: middle;
+    width: 33%;
+    padding: 1rem;
+    box-shadow: 3px 3px 4px #334e72;
+    color: #d1cccc;
+}
+    .header-1{
+    text-transform: uppercase;
+    background: red;
+    padding: 0.8rem 5px;
+    border-radius: 50px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    }
+    .last-info{
+        text-align: center;
+    }
+    .select-btn{
+        background: red;
+        margin: 0.2rem 3rem;
+        border-radius: 5px;
+    }
+    .soon-btn{
+        margin: 1rem 4.7rem;
+        padding: 0.3rem 0.2rem;
+        background: rgb(67, 27, 177);
+        border-radius: 25px;
+        font-size: smaller;
+        box-shadow: 1px 1px 10px rgb(106, 121, 139);
+    }
